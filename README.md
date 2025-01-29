@@ -36,7 +36,7 @@ SimpleDateFormat (Date Handling)
 
 Java Development Kit (JDK 8 or later)
 
-Integrated Development Environment (IDE) (IntelliJ IDEA, Eclipse, NetBeans, or command-line terminal)
+I used Integrated Development Environment (IDE) (IntelliJ IDEA, Eclipse, NetBeans, or command-line terminal)
 
 
 ## Sample Input/Output :
