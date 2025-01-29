@@ -1,8 +1,8 @@
 Basic-Java-project
 
-Project Overview
+Project Overview :
 
-The Basic Java Project is a console-based application designed to demonstrate fundamental Java concepts such as object-oriented programming, collections, and input validation. This project provides a simple yet functional implementation of a Bus Reservation System that allows users to book bus tickets, check availability, and manage reservations.
+The Basic Java Project is a console-based application designed to demonstrate fundamental Java concepts such as object-oriented programming, collections, and input validation. This project provides a simple yet functional implementation of a Bus Reservation System that allows users to enter thier detais like bus number, name and date for reservations.
 
 Features : 
 
@@ -37,7 +37,7 @@ Java Development Kit (JDK 8 or later)
 Integrated Development Environment (IDE) (IntelliJ IDEA, Eclipse, NetBeans, or command-line terminal)
 
 
-Sample Input/Output
+Sample Input/Output :
 
 Hi Welcome to Sujai's Bus Reservation!
 
