@@ -4,7 +4,7 @@ Project Overview
 
 The Basic Java Project is a console-based application designed to demonstrate fundamental Java concepts such as object-oriented programming, collections, and input validation. This project provides a simple yet functional implementation of a Bus Reservation System that allows users to book bus tickets, check availability, and manage reservations.
 
-Features
+Features : 
 
 Passenger Booking: Users can enter their details and select a bus for travel.
 
@@ -20,7 +20,8 @@ Enforces strict date format (dd-MM-yyyy).
 
 Booking Confirmation: Provides confirmation upon successful reservation.
 
-Technologies Used
+
+Technologies Used : 
 
 Java (Core Programming)
 
@@ -28,81 +29,38 @@ Collections (ArrayList, HashSet) (Data Storage)
 
 SimpleDateFormat (Date Handling)
 
-Getting Started
 
-Prerequisites
+Prerequisites :
 
 Java Development Kit (JDK 8 or later)
 
 Integrated Development Environment (IDE) (IntelliJ IDEA, Eclipse, NetBeans, or command-line terminal)
 
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/basic-java-project.git
-cd basic-java-project
-
-Open the project in your preferred IDE.
-
-Compile and run the application.
-
-Running the Application
-
-Execute the Main.java file.
-
-Follow the console prompts to enter passenger details, select a bus, and confirm booking.
 
 Sample Input/Output
 
-Enter the Name of Passenger:
-JohnDoe
+Hi Welcome to Sujai's Bus Reservation!
 
-Enter bus no:
-101
+The Sujai's Bus details:
+ 
+Bus No:1001 Ac:true Total Capacity: 2
+Bus No:2002 Ac:false Total Capacity: 25
+Bus No:3003 Ac:true Total Capacity: 50
 
-Enter a Date (dd-MM-yyyy):
-25-12-2025
+Enter 1 to BOOK A TCIKET and 2 to EXIT TICKET PROCESS!
+1
+Enter the Name of Passenger: 
+Sujai
+Enter a Bus Number: 
+1001
+Enter a Date (dd-MM-yyyy): 
+03-06-2024
 
-Booking Confirmed! Your ticket is reserved on Bus 101 for 25-12-2025.
+Your booking is confirmed
+Thanks for Choosing Sujai's Buses!!
+Have a nice day! Paldies.
 
-Project Structure
-
-BasicJavaProject/
-│
-├── src/                        # Source Code
-│   ├── Bus.java                # Stores bus details
-│   ├── Booking.java            # Handles booking logic
-│   ├── Main.java               # Entry point of the application
-│
-├── README.md                   # Project Documentation
-└── .gitignore                  # Git Ignore File
-
-Future Enhancements
-
-Database Integration: Store bus and booking details in a database.
-
-Graphical User Interface (GUI): Implement a user-friendly UI using JavaFX or Swing.
-
-User Authentication: Add login and registration features.
-
-Email/SMS Notifications: Send booking confirmation messages.
-
-Contributing
-
-If you would like to contribute:
-
-Fork the repository.
-
-Create a new branch (git checkout -b feature-branch).
-
-Make changes and commit (git commit -am 'Add new feature').
-
-Push the branch (git push origin feature-branch).
-
-Open a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+Enter 1 to BOOK A TCIKET and 2 to EXIT TICKET PROCESS!
+2
+Have a nice day! Paldies.
 
